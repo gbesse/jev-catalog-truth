@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: checkout-api
+  description: Checkout API for online orders
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/commerce-platform
